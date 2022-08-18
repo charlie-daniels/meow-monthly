@@ -25,7 +25,7 @@ h1 {
 }
 
 h2 {
-    margin-top: 0;
+    margin: 0;
 }
 
 button {
@@ -35,9 +35,10 @@ button {
     border-radius: 12px;
     border-style: none;
     border: 2px solid;
+}
+.top button {
     margin-bottom: 40px;
 }
-
 .header {
     display: flex;
     justify-content: space-between;
@@ -85,6 +86,7 @@ img {
     background-size: cover;
     border-radius: 12px;
     border: 2px solid #ffffff;
+    margin-top: 20px;
 }
 
 #intro-img {
@@ -140,9 +142,32 @@ blockquote {
     display: flex;
     justify-content: center;
     color: white;
-    background-color: rgb(110, 97, 81) /*rgb(77, 68, 57);*/
+    background-color: rgb(77, 68, 57)
 }
 
 .footer p {
     margin: 20px;
+}
+
+.sign-up {
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    display: flex;
+    background-color: rgb(110, 97, 81);
+    border-radius: 12px;
+    padding: 20px;
+    margin: 20px 20%;
+    color: white;
+    align-items: center;
+}
+
+.box button {
+    margin-left: 10px;
+}
+
+#item-1 {
+    background-image: url(img/dingus.jpeg);
 }
