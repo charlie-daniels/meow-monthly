@@ -135,3 +135,14 @@ blockquote {
 .quote-length {
     background-color: rgb(225, 206, 184);
 }
+
+.footer {
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: rgb(110, 97, 81) /*rgb(77, 68, 57);*/
+}
+
+.footer p {
+    margin: 20px;
+}
