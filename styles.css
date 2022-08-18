@@ -4,8 +4,7 @@ body {
 }
 
 p {
-    margin: 10px;
-    margin-left: 0px;
+    margin: 10px 10px 10px 0;
 }
 
 a {
@@ -25,37 +24,55 @@ h1 {
     font-weight: bold;
 }
 
+h2 {
+    margin-top: 0;
+}
+
 button {
     padding: 4px 20px;
-    background-color: #3882F6;
+    background-color: rgb(150, 114, 70);
     color: white;
-    border-radius: 8px;
+    border-radius: 12px;
     border-style: none;
+    border: 2px solid;
+    margin-bottom: 40px;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin: 0 10%;
+    padding: 10px 0 10px;
+    font-size: 14px;
+}
+
+.header-length {
+    background-color: rgb(77, 68, 57);
+}
+
+.header .logo {
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .top {
-    background-color: #1F2937;
+    background-color: rgb(110, 97, 81);
     color: white;
-    padding: 8px;
 }
 
 .intro {
-    margin: 60px 10%;
+    margin: 40px 10%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
-.info {
+.features {
     background-color: white;
     display: flex;
     flex-flow: column wrap;
     align-items: center;
+    margin-bottom: 40px;
 }
 
 .diagrams {
@@ -63,9 +80,19 @@ button {
     gap: 28px;
 }
 
-.intro img {
-    width: 300px;
-    height: 150px;
+img {
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 12px;
+    border: 2px solid #ffffff;
+}
+
+#intro-img {
+    background-image: url(img/panko-sandwich.jpeg);
+    min-width: 400px;
+    min-height: 250px;
+
+    margin: 0 0 40px 8px;
 }
 
 .item img {
@@ -73,7 +100,7 @@ button {
     height: 100px;
     border: 2px solid;
     border-radius: 6px;
-    border-color: #3882F6;
+    border-color: white;
 }
 
 .item {
@@ -83,7 +110,28 @@ button {
 }
 
 .item p {
-    margin: 0;
     font-size: 12px;
-    color: grey
+    color: grey 
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    margin: 0 10%;
+}
+
+figcaption {
+    font-weight: bold;
+    font-size: 12px;
+    align-self: flex-end;
+}
+
+blockquote {
+    margin: 40px 0;
+}
+
+.quote-length {
+    background-color: rgb(225, 206, 184);
 }
